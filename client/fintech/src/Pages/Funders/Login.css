@@ -1,0 +1,152 @@
+.startup-login {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.left-panel {
+  background: linear-gradient(135deg, #0061ff 0%, #60efff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+}
+
+.brand-section {
+  margin-bottom: 4rem;
+}
+
+.brand-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.brand-section p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.info-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.right-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.login-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.login-header p {
+  color: #718096;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.form-control {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.form-control:focus {
+  border-color: #0061ff;
+  box-shadow: 0 0 0 3px rgba(0, 97, 255, 0.1);
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-me {
+  color: #4a5568;
+}
+
+.forgot-password {
+  color: #0061ff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #0061ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+  background: #0052d6;
+}
+
+.register-prompt {
+  text-align: center;
+  color: #4a5568;
+}
+
+.register-link {
+  color: #0061ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .left-panel {
+    min-height: 300px;
+  }
+  
+  .brand-section {
+    margin-bottom: 2rem;
+  }
+  
+  .brand-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .info-section h2 {
+    font-size: 2rem;
+  }
+}
